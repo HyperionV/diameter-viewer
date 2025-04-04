@@ -9,6 +9,8 @@ A Streamlit application that detects circles in images and displays their proper
 - View detailed measurements for each circle
 - Select individual circles to see their properties
 - Optional scaling to convert pixel measurements to real-world units
+- **Multilingual support** (English and Vietnamese)
+- **Quick guide for beginners** with simple, non-technical instructions
 
 ## Installation
 
@@ -34,6 +36,17 @@ streamlit run app/app.py
 4. Adjust the detection parameters in the sidebar if needed
 
 5. Select a circle from the dropdown to view its properties
+
+## For Non-Technical Users
+
+This application is designed to be accessible for everyone, including non-IT users! Here's how to use it:
+
+1. **Getting Started**: Click the "Use example image" checkbox to see the app in action with a sample image
+2. **Uploading Images**: Use the file uploader at the top to add your own pictures
+3. **Finding Circles**: Circles will be automatically detected and numbered on your image
+4. **Viewing Measurements**: Click on any numbered circle to see its size details
+5. **Real-world Measurements**: If you know the scale of your image (e.g., pixels per mm), use the scale option to convert to real units
+6. **Language Option**: Switch between English and Vietnamese using the dropdown in the sidebar
 
 ## Parameter Tuning
 
